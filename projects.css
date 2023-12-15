@@ -129,3 +129,7 @@
 .Projects-box a {
     text-decoration: none;
 }
+
+.card-body {
+    width: 27vw;
+}
