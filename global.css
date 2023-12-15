@@ -58,6 +58,7 @@
 }
 
 .Navbar-header:hover {
+    cursor: pointer;
     transform: scale(1.2);
 }
 
