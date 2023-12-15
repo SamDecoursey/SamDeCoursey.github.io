@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width: 50rem) {
+    .Navbar {
+      flex-direction: column;
+    }
+    ul.Navbar-items {
+      width: 80%;
+    }
+    header.Home {
+      padding-top: 15vh;
+    }
+    .Home-container {
+        flex-direction: column;
+    }
+    div.Home-box {
+        width: 100vw;
+        border-right: none;
+        border-bottom: solid .45vh black;
+    }
+    section.Projects {
+      padding-top: 15vh;
+    }
+    div.Projects-boxes {
+      flex-direction: column;
+    }
+    div.Projects-box {
+      width: 100%;
+    }
+    main.Resume {
+      padding-top: 15vh;
+    }
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+    border-bottom: solid 1vh black;
+    position: fixed;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100vw;
+    z-index: +1;
+}
+
+.Navbar-header {
+    font-family:'Segoe UI', sans-serif;
+    text-shadow: .18vh .18vh rgb(256, 138, 44);
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+    font-size: 6vh;
+}
+
+.Navbar-items {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.Navbar-pages {
+    font-family:'Segoe UI', sans-serif;
+    font-size: 3.3vh;
+    text-decoration: none;
+    color: black;
+}
+
+.Navbar-selected {
+    font-family:'Segoe UI', sans-serif;
+    font-size: 3.3vh;
+    text-decoration: none;
+    color: black;
+    text-shadow: .18vh .18vh rgb(256, 138, 44);
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+    align-content: center;
+}
+
+.Navbar-pages:hover {
+    text-shadow: .18vh .18vh rgb(256, 138, 44);
+    cursor: pointer;
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+}
+
+.Home {
+    font-family:'Segoe UI', sans-serif;
+    padding-top: 12vh;
+    text-align: center;
+    font-size: 9vh;
+}
+
+.Home-container {
+    display: flex;
+}
+
+.Home-box {
+    width: 50vw;
+    font-family:'Segoe UI', sans-serif;
+    border-right: solid .45vh black;
+    font-size: 5.4vh;
+}
+
+.Home-box img {
+    width:40vw;
+    height: 90vh;
+    margin: auto;
+}
+
+
+.Projects {
+    padding-top: 12vh;
+}
+
+.Projects div {
+    box-sizing:border-box;
+    border-radius:10px;
+    padding:2%;
+    margin:0;
+    text-align:center;
+}
+
+.Projects h1 {
+    text-align: center;
+    font-size: 10vh;
+}
+
+.Projects-boxes {
+    display: flex;
+    direction: column;
+    justify-content: space-evenly;
+    gap: 3%;
+}
+
+.Projects-boxes>div {
+    background-color: lightgray;
+}
+
+.Projects-box {
+    font-family:'Segoe UI', sans-serif;
+    text-align: center;
+    font-size: 6vh;
+    width: 33%;
+}
+
+.Projects-box a {
+    text-decoration: none;
+}
+
+.Resume {
+    padding-top: 12vh;
+}
