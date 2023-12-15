@@ -17,6 +17,8 @@
             <li><a href="projects.html" class="Navbar-pages"> PROJECTS </a></li>
             <li><a href="resume.html" class="Navbar-pages"> RESUME </a></li>
         </ul>
+        <button onClick="setLightMode()">Light Mode</button>
+        <button onClick="setDarkMode()">Dark Mode</button>
     </nav>
     <header class="Home"><u>ABOUT ME</u></header>
     <main class="Home-container">
@@ -28,5 +30,12 @@
         </div>
     </main>
   </body>
-
+  <script>
+    function setLightMode() {
+        document.body.style.backgroundColor = 'white';
+    }
+    function setDarkMode() {
+        document.body.style.backgroundColor = 'black';
+    }
+  </script>
 </html>
