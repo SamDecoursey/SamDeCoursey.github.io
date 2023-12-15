@@ -8,7 +8,7 @@
     .NavbarC {
       flex-direction: column;
     }
-    ul.Navbar-itemsC {
+    ul.NavbarC-itemsC {
       width: 80%;
     }
     section.Projects {
@@ -35,7 +35,7 @@
     z-index: +1;
 }
 
-.Navbar-headerC {
+.NavbarC-headerC {
     font-family:'Segoe UI', sans-serif;
     text-shadow: .18vh .18vh rgb(256, 138, 44);
     filter: dropshadow(color=#000000, offx=2, offy=2);
@@ -43,19 +43,19 @@
     font-size: 6vh;
 }
 
-.Navbar-headerC:hover {
+.NavbarC-headerC:hover {
     cursor: pointer;
     transform: scale(1.11);
 }
 
-.Navbar-itemsC {
+.NavbarC-itemsC {
     width: 55%;
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
 
-.Navbar-pagesC {
+.NavbarC-pagesC {
     font-family:'Segoe UI', sans-serif;
     font-size: 3.3vh;
     text-decoration: none;
@@ -63,7 +63,7 @@
     transition: transform 0.33s ease-in-out;
 }
 
-.Navbar-selectedC {
+.NavbarC-selectedC {
     font-family:'Segoe UI', sans-serif;
     font-size: 3.3vh;
     text-decoration: none;
@@ -74,19 +74,19 @@
     transition: transform 0.33s ease-in-out;
 }
 
-.Navbar-pagesC:hover {
+.NavbarC-pagesC:hover {
     text-shadow: .18vh .18vh rgb(256, 138, 44);
     cursor: pointer;
     filter: dropshadow(color=#000000, offx=2, offy=2);
     transform: scale(1.11);
 }
 
-.Navbar-selectedC:hover {
+.NavbarC-selectedC:hover {
     cursor: pointer;
     transform: scale(1.11);
 }
 
-.Navbar-displayC {
+.NavbarC-displayC {
     height: 4.8vh;
     width: 4.5vw;
 }
