@@ -86,6 +86,11 @@
     filter: dropshadow(color=#000000, offx=2, offy=2);
 }
 
+.Navbar-display {
+    height: 4.2vh;
+    width: 4.5vw;
+}
+
 .Home {
     font-family:'Segoe UI', sans-serif;
     padding-top: 12vh;
