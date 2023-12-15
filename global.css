@@ -91,6 +91,14 @@
     width: 4.5vw;
 }
 
+.Navbar-header {
+    transition: transform 0.33s ease-in-out;
+}
+
+.Navbar-header:hover {
+    transform: scale(1.11);
+}
+
 .Home {
     font-family:'Segoe UI', sans-serif;
     padding-top: 12vh;
