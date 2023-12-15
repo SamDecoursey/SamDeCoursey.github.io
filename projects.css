@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media(max-width: 50rem) {
+    .NavbarC {
+      flex-direction: column;
+    }
+    ul.Navbar-itemsC {
+      width: 80%;
+    }
+    section.Projects {
+      padding-top: 15vh;
+    }
+    div.Projects-boxes {
+      flex-direction: column;
+    }
+    div.Projects-box {
+      width: 100%;
+    }
+}
+
+.NavbarC {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightgrey;
+    border-bottom: solid 1vh black;
+    position: fixed;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100vw;
+    z-index: +1;
+}
+
+.Navbar-headerC {
+    font-family:'Segoe UI', sans-serif;
+    text-shadow: .18vh .18vh rgb(256, 138, 44);
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+    transition: transform 0.33s ease-in-out;
+    font-size: 6vh;
+}
+
+.Navbar-headerC:hover {
+    cursor: pointer;
+    transform: scale(1.11);
+}
+
+.Navbar-itemsC {
+    width: 55%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.Navbar-pagesC {
+    font-family:'Segoe UI', sans-serif;
+    font-size: 3.3vh;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.33s ease-in-out;
+}
+
+.Navbar-selectedC {
+    font-family:'Segoe UI', sans-serif;
+    font-size: 3.3vh;
+    text-decoration: none;
+    color: black;
+    text-shadow: .18vh .18vh rgb(256, 138, 44);
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+    align-content: center;
+    transition: transform 0.33s ease-in-out;
+}
+
+.Navbar-pagesC:hover {
+    text-shadow: .18vh .18vh rgb(256, 138, 44);
+    cursor: pointer;
+    filter: dropshadow(color=#000000, offx=2, offy=2);
+    transform: scale(1.11);
+}
+
+.Navbar-selectedC:hover {
+    cursor: pointer;
+    transform: scale(1.11);
+}
+
+.Navbar-displayC {
+    height: 4.8vh;
+    width: 4.5vw;
+}
+
+.Projects {
+    padding-top: 12vh;
+}
+
+.Projects div {
+    box-sizing:border-box;
+    border-radius:10px;
+    padding:2%;
+    margin:0;
+    text-align:center;
+}
+
+.Projects h1 {
+    text-align: center;
+    font-size: 10vh;
+}
+
+.Projects-boxes {
+    display: flex;
+    direction: column;
+    justify-content: space-evenly;
+    gap: 3%;
+}
+
+.Projects-boxes>div {
+    background-color: lightgray;
+}
+
+.Projects-box {
+    font-family:'Segoe UI', sans-serif;
+    text-align: center;
+    font-size: 6vh;
+    width: 33%;
+}
+
+.Projects-box a {
+    text-decoration: none;
+}
